@@ -26,6 +26,7 @@ export const Container = styled.div`
         line-height: 50px;
         padding-left: 10px;
         border-left: 8px solid var(--primary);
+        border-bottom-left-radius: 7px;
     }
 `
 

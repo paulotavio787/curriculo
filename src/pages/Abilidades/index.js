@@ -24,7 +24,7 @@ const Abilidades = () => {
                 </div>
                 <div className="frameworkBox">
                     <img src={css} alt="logo do Framework" className="logo" alt="css logo"/>
-                    <h1 className="ftitle">css Intermediario</h1>
+                    <h1 className="ftitle">css Avançado</h1>
                 </div>
                 <div className="frameworkBox">
                     <img src={ReactJs} alt="logo do Framework" className="logo" alt="react js logo" />
