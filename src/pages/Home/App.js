@@ -25,11 +25,6 @@ const App = () => {
             </div>
 
             <div className="infoBox">
-              <strong className="pergunta">Endereço:</strong>
-              <p className="resposta">Rua Clepino Antônio de Araújo, 51 - Alto da Boa Vista</p>
-            </div>
-
-            <div className="infoBox">
               <strong className="pergunta">Cidade:</strong>
               <p className="cidade">Itumbiara</p>
 
