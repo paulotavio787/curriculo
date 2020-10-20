@@ -34,7 +34,7 @@ export const Nav = styled.nav`
         width: 6.56vh;
         height: 6.56vh;
         position: fixed;
-        top: 3.5%;
+        top: 2.2%;
         display: none;
     }
 

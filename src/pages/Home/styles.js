@@ -9,7 +9,7 @@ export const Div = styled.div`
         width: 422px;
         height: 422px;
         margin: 30px;
-        border-radius: 30px;
+        border-radius:  100px;
     }
 
     .pergunta{
@@ -28,9 +28,6 @@ export const Div = styled.div`
     .infosBox{
         display: flex;
         flex-direction: column;
-        border: 3px solid var(--primary);
-        padding: 10px;
-        border-radius: 15px;
         justify-content: center;
     }
 
@@ -66,11 +63,24 @@ export const Div = styled.div`
     }
 
     .cidade{
-        margin-right: 20%;
+        margin-right: 30px;
         font-size: 20px;
     }
     .dadosBox{
         display: flex;
+        box-shadow: 10px 0 0 var(--primary),
+                    -10px 0 0 var(--primary);
+        padding: 10px;
+        border-radius: 100px;
+    }
+
+    @media screen and (max-width: 768px) {
+        .Perfil {
+            width: 200px;
+            height: 200px;
+            margin: 30px;
+            border-radius:  100vh;
+        }
     }
 `;
 

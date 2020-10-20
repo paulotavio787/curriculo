@@ -25,16 +25,15 @@ const App = () => {
             </div>
 
             <div className="infoBox">
-              <strong className="pergunta">Endereço:</strong>
-              <p className="resposta">Rua Clepino Antônio de Araújo, 51 - Alto da Boa Vista</p>
-            </div>
+              <div className="infoBox">
+                <strong className="pergunta">Cidade:</strong>
+                <p className="cidade">Itumbiara</p>
+              </div>
 
-            <div className="infoBox">
-              <strong className="pergunta">Cidade:</strong>
-              <p className="cidade">Itumbiara</p>
-
-              <strong className="pergunta">Estado:</strong>
-              <p className="resposta">Goiás</p>
+              <div className="infoBox">
+                <strong className="pergunta">Estado:</strong>
+                <p className="resposta">Goiás</p>
+              </div>
             </div>
 
             <div className="git">

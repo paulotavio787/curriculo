@@ -42,4 +42,11 @@ export const Box = styled.div`
             height: 300px;
         }
     }
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-width: 100vw;
+    }
 `;

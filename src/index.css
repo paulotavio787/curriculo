@@ -27,7 +27,7 @@ a {
 }
 
 #root {
-  min-height: 100vh;
+  min-height: 192vh;
   min-width: 108vh;
   display: flex;
   flex-direction: column;
