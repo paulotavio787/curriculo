@@ -19,6 +19,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  min-width: 100%;
 }
 
 a {
@@ -27,6 +28,7 @@ a {
 
 #root {
   min-height: 100vh;
+  min-width: 108vh;
   display: flex;
   flex-direction: column;
 }

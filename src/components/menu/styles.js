@@ -1,8 +1,11 @@
 import styled from "styled-components";
 
 export const Nav = styled.nav`
-    width: 100%;
+    min-width: 100%;
     height: 94px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
     position: fixed;
     z-index: 100;
@@ -21,9 +24,29 @@ export const Nav = styled.nav`
         margin: 0;
         color: var(--primary);
         font-family: 'Lobster', cursive;
-        font-size: 45px;
+        font-size: 4.26vh;
         font-weight: inherit;
         padding-bottom: 10px;
+        display: inline
+    }
+
+    .NavButton{
+        width: 6.56vh;
+        height: 6.56vh;
+        position: fixed;
+        top: 3.5%;
+        display: none;
+    }
+
+    @media screen and (max-width: 768px) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        .NavButton {
+            display: block;
+            margin-left: 45%;
+        }
     }
 
 `;
@@ -68,4 +91,8 @@ export const NavBox = styled.nav`
     color: var(--black);
     font-size: 26px;
   }
+
+  @media screen and (max-width: 768px) {
+        display: none;
+    }
   `;
