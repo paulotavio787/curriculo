@@ -14,7 +14,7 @@ const openAEB = () => {
 const Portifolio = () => {
     return (
         <PageDefault>
-            <Title>Portifolio</Title>
+            <Title>Portfólio</Title>
             <Box>
                 <div className="AppBox">
                     <a href="https://www.anomiagaba.ml/" className="AppLink">

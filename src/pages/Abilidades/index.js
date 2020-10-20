@@ -12,7 +12,7 @@ import { Title } from "../Home/styles";
 const Abilidades = () => {
     return (
         <PageDefault>
-            <Title>Frameworks Utilisados</Title>
+            <Title>Frameworks Utilizados</Title>
             <Div>
                 <div className="frameworkBox">
                     <img src={js} alt="logo do Framework" className="logo" alt="JS logo" />
