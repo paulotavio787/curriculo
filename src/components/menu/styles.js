@@ -30,25 +30,6 @@ export const Nav = styled.nav`
         display: inline
     }
 
-    .NavButton{
-        width: 6.56vh;
-        height: 6.56vh;
-        position: fixed;
-        top: 2.2%;
-        display: none;
-    }
-
-    @media screen and (max-width: 768px) {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        
-        .NavButton {
-            display: block;
-            margin-left: 45%;
-        }
-    }
-
 `;
 export const NavBox = styled.nav`
     width: 100%;
@@ -92,7 +73,91 @@ export const NavBox = styled.nav`
     font-size: 26px;
   }
 
-  @media screen and (max-width: 768px) {
-        display: none;
+    @media screen and (max-width: 768px) {
+        width: 0%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: fixed;
+
+        .nav {
+            margin: 70px;
+            font-size: 0px;
+            border-bottom: 0;
+            transition: .4s;
+        }
     }
-  `;
+`;
+
+export const NavBar = styled.div`
+    width: 100vh;
+    height: 93px;
+
+    .NavButton{
+        width: 6.56vh;
+        height: 6.56vh;
+        position: fixed;
+        top: 2.2%;
+        display: none;
+        z-index: 1;
+    }
+
+    @media screen and (max-width: 768px) {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: fixed;
+
+            .NavButton {
+                display: block;
+                position: absolute;
+                cursor: pointer;
+                left: 90%;
+                top: 50%;
+                transform: translate(-5%, -50%)
+            }
+
+            @media screen and (max-width: 768px) {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: fixed;
+            
+            .NavButton {
+                display: block;
+                position: absolute;
+                cursor: pointer;
+                left: 90%;
+                top: 50%;
+                transform: translate(-5%, -50%);
+                z-index: 1;
+            }
+
+            &&:hover {
+                ${NavBox}{
+                    transition: .7s;
+                    width: 100%;
+                    height: 100%;
+                    padding: 0;
+                    margin: 0;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    position: fixed;
+                    z-index: -1;
+
+                    .nav {
+                        margin: 70px;
+                        font-size: 26px;
+                        border-bottom: 5px solid var(--primary);
+                        transition: .4s;
+                        margin-top: 100px
+                    }
+                }
+            }
+        }
+    }
+`
