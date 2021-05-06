@@ -9,7 +9,6 @@ const Sobre = () => {
                 <div>
                     <h1>Sobre Mim</h1>
                     <p>
-                    Tenho 15 anos e curso o 1º ano do ensino médio.
                     Iniciei, por conta própria, meus estudos em programação aos 11 anos.
                     Dos 11 aos 13 anos, foquei meus estudos em desenvolvimento de games,
                     mas após essa jornada percebi que não era aquilo que eu queria, então
